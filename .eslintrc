@@ -1,0 +1,17 @@
+{
+  "extends": ["@pathable/eslint-config-pathable"],
+  "overrides": [
+    {
+      "files": ["**/*.js", "**/*.jsx"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    },
+    {
+      "files": ["cypress/**/*.js", "cypress/**/*.jsx"],
+      "rules": {
+        "no-param-reassign": 0
+      }
+    }
+  ]
+}

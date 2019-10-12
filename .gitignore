@@ -57,5 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+yarn.lock
+
 # next.js build output
 .next
+
+# webstorm
+**/.idea/*
+!.idea/runConfigurations
