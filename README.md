@@ -64,7 +64,8 @@ The page needs to be reactive, we should not need to refresh the page to see the
 - You can style the application.
 
 # Important
-- You need to be approved first by an automatic process that will check your solution then follow the requirements as close as possible.
+- An automatic process will check your solution then please follow the requirements as close as possible, only after this first automatic gate a developer will take a look at your code and resume then is very important to pay attention to details;
+- We are not going to answer any question about this challenge neither in this repository or by email, the understanding is also part of the challenge.
 
 # How to delivery your challenge
 Apply to a developer position at Pathable submitting [Pathable Developer Application](https://forms.gle/uZC22LevHmAzcDh78) form, your repository SSH URL solving this challenge is of one the form fields.
