@@ -60,6 +60,8 @@ The page needs to be reactive, we should not need to refresh the page to see the
 - You must explain your ideas as comments in the code, we want to see how you express yourself in written English;
 - You must use Meteor as builder and runner, React as view layer and MongoDB as data layer;
 - You must use MongoDB embedded in Meteor, don't configure the project to access a different MongoDB URL;
+- You must not insert new documents into communities and people collection;
+- You must not change `initial-data.js`;
 - You can add new dependencies;
 - You can style the application.
 

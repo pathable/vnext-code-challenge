@@ -1,4 +1,8 @@
-export const PEOPLE_DATA = [
+// DON'T CHANGE THIS FILE
+import { Communities } from '../collections/communities';
+import { People } from '../collections/people';
+
+const PEOPLE_DATA = [
   {
     firstName: 'Rebekah',
     lastName: 'Tempest',
@@ -6263,8 +6267,24 @@ export const PEOPLE_DATA = [
   },
 ];
 
-export const COMMUNITIES_DATA = [
+const COMMUNITIES_DATA = [
   { name: 'Challenge' },
   { name: 'Great Code' },
   { name: 'I love code' },
 ];
+
+export const loadInitialData = () => {
+  if (Communities.find().count()) {
+    return;
+  }
+  COMMUNITIES_DATA.forEach(community => Communities.insert(community));
+
+  const communities = Communities.find().fetch();
+
+  PEOPLE_DATA.forEach((person, idx) =>
+    People.insert({
+      ...person,
+      communityId: communities[idx % communities.length]._id,
+    })
+  );
+};
