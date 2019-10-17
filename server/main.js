@@ -4,13 +4,17 @@ import { Communities } from '../collections/communities';
 import { COMMUNITIES_DATA, PEOPLE_DATA } from './initial-data';
 
 Meteor.startup(() => {
-  if (!Communities.find().count()) {
-    COMMUNITIES_DATA.forEach(community => Communities.insert(community));
+  if (Communities.find().count()) {
+    return;
   }
-  const community = Communities.findOne();
-  if (!People.find().count()) {
-    PEOPLE_DATA.forEach(person =>
-      People.insert({ ...person, communityId: community._id })
-    );
-  }
+  COMMUNITIES_DATA.forEach(community => Communities.insert(community));
+
+  const communities = Communities.find().fetch();
+
+  PEOPLE_DATA.forEach((person, idx) =>
+    People.insert({
+      ...person,
+      communityId: communities[idx % communities.length]._id,
+    })
+  );
 });
