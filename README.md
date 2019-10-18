@@ -67,7 +67,6 @@ Between the event selector and the list of people we want to see a summary like 
 - `People in the event right now: 10`;
 - `People by company in the event right now: Green Group (10), Hoppe Group (5)`;
 - `People not checked-in: 200`;
-- `Registered People by company: Green Group (10), Hoppe Group (5)`.
 
 The page needs to be reactive -- no refresh should be needed to display the latest data.
 
