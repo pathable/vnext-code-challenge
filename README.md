@@ -87,4 +87,4 @@ The page needs to be reactive -- no refresh should be needed to display the late
 
 ## How to delivery your challenge
 
-Apply to a developer position at Pathable submitting [Pathable Developer Application](https://forms.gle/uZC22LevHmAzcDh78) form, your repository SSH URL solving this challenge is of one the form fields.
+Apply to a developer position [here](https://jsco.re/38idf), your repository SSH URL solving this challenge is of one the form fields.
