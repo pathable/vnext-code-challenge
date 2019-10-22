@@ -13,20 +13,9 @@ Do you want to join Pathable as a developer? Great. Read this document and then 
 Please following the instructions here exactly. Getting setup correctly is part of the challenge! ;)
 
 - This git repository needs to be used as your initial state.
-- Please publish your version of this repository somewhere private
-  - IMPORTANT: Your solution should not be public.
-    - You can publish it anywhere you prefer. Gitlab and Bitbucket are free for private repository with a single developer
-  - Please add these public SSH keys:
-
-    ```bash
-        ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqQZDC4RV1Zyw7f1XFYAiaEYFXD8j2cHi5Sg/eVyq8ts3WIdEqRET0Vgdu52cAQdhq12FBMOEklqki2szid+8woIBcevwz+6wo19WNt7JHXWFuic+oR39Bplw41elKoAx7APo135nP/z1BolcywXBFUlA72PPytrpbgeic6ZYRk2Df+DRq+o0Jl0wexs7E9F0AK6B4oRQ8Ybq6I8odT7Hl5jIW0sXQzzGvdgOsaV4W+SqzPFai2y1FZs5A0bA/3JRhielLR8Hyin2lp6FTom7TrSbWCbRj+PUX4mGs3tHYydl+m4rFC4F/CPtxnrcbGog6wtCgmNCifXe9d/TY/AtH jenkins@ip-172-31-91-146 
-    ```
-
-    ```bash
-        ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQFVf3TXBOoUyw3GXCRCkM85JYnSx+MT4W7d3bm7RZ7p9xZG9QcQRSvVDg3uc0Fjt2ujzxditMW6epcn5irtByuW55TnKSbCUl9Xl0jlqgCW3GDtP1BCE6xH2iuUjQSSHCFSD7CqjgK4zAdgpOY3r3oZtMoOmHrQDyOGBG4XAQz6LE9u+E3NBLf5STBpR+uvuFAzIimcGVhyeznbyPtUELgHDyNFIlMqzAr7chl8m/x/zm808FLnE3oIUgg+80IbgbF3fmktiNdNgCE6gWwZniVe3avDUX1o2g8BqtYuyFgETugQBy31Y/mZoPfzl2DE7nR8+QF/l4IAW4Owt4XJS5 filipe-macbook 
-    ```
-
-- Remember to push everything that you have locally before submitting your challenge. We will only use content that is available in your published repository.
+- Your solution should not be public.
+- When you are done zip your repository and send us a link with proper access to download it.
+  - It's better to remove node_modules and .meteor/local before zipping it.
 
 ### How to install dependencies
 
@@ -87,4 +76,4 @@ The page needs to be reactive -- no refresh should be needed to display the late
 
 ## How to delivery your challenge
 
-Apply to a developer position [here](https://jsco.re/38idf), your repository SSH URL solving this challenge is of one the form fields.
+Apply to a developer position [here](https://jsco.re/38idf), your zipped repository URL solving this challenge is of one the form fields.
