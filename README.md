@@ -8,14 +8,12 @@ Do you want to join Pathable as a developer? Great. Read this document and then 
 
 ## Challenge setup
 
-### Repository setup
-
-Please following the instructions here exactly. Getting setup correctly is part of the challenge! ;)
+### Repository setup & process
 
 - This git repository needs to be used as your initial state.
-- Your solution should not be public.
-- When you are done zip your repository and send us a link with proper access to download it.
-  - It's better to remove node_modules and .meteor/local before zipping it.
+- Once completed simply git push your changes and we'll be notified.
+- Our team will review your submisssion and provide feedback via PR.
+- Please be sure your application includes your GitHub username.
 
 ### How to install dependencies
 
@@ -62,7 +60,7 @@ The page needs to be reactive -- no refresh should be needed to display the late
 ## Implementation rules
 
 - You must explain your ideas as comments in the code, we want to see how you express yourself in written English;
-- You must use Meteor as builder and runner, React as view layer and MongoDB as data layer;
+- You must use Meteor as the builder and runner, React as the view layer and MongoDB as the data layer;
 - You must use MongoDB embedded in Meteor, don't configure the project to access a different MongoDB URL;
 - You must not insert new documents into communities nor into the people collection;
 - You must not change `initial-data.js`;
@@ -74,6 +72,6 @@ The page needs to be reactive -- no refresh should be needed to display the late
 - An automatic process will check your solution -- please follow the requirements as close as possible. Only submissions that pass the tests will be considered;
 - We are not going to answer any questions about this challenge, so that all submissions can be fairly compared.
 
-## How to delivery your challenge
+## How to deliver your challenge
 
-Apply to a developer position [here](https://careers.jobscore.com/careers/pathableinc); there is a field for including a link to your zipped repository.
+This challenge should only be submitted via a [GitHub Classroom assignment](https://classroom.github.com/classrooms/60523-pathable/assignments/pathable-code-challenge-1). Then, apply to a developer position [here](https://careers.jobscore.com/careers/pathableinc), being sure to include your GitHub username. 
